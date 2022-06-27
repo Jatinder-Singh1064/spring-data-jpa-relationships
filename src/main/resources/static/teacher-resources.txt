@@ -1,0 +1,10 @@
+createTeacher = POST
+
+-- http://localhost:8080/teachers
+
+{
+	"name": "Teacher A"
+}
+
+getTeachers = GET
+-- http://localhost:8080/teachers

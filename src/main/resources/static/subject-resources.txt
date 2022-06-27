@@ -1,0 +1,16 @@
+createSubject = POST
+
+-- http://localhost:8080/subjects
+
+{
+	"name": "Math"
+}
+
+getSubjects = GET
+-- http://localhost:8080/subjects
+
+enrollStudentToSubject = PUT
+-- http://localhost:8080/subjects/{subjectId}/students/{studentId}
+
+assignTeacherToSubject = PUT
+-- http://localhost:8080/subjects/{subjectId}/teachers/{teacherId}
